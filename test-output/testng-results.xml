@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51485" started-at="2020-09-09T02:50:27Z" finished-at="2020-09-09T02:51:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51485" started-at="2020-09-09T02:50:27Z" finished-at="2020-09-09T02:51:18Z">
+      <class name="Selenium.project.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Selenium.project.HomePage@550dbc7a]" name="initialize" is-config="true" duration-ms="9376" started-at="2020-09-09T12:50:27Z" finished-at="2020-09-09T12:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Selenium.project.HomePage@550dbc7a]" name="basePageNavigation" duration-ms="21217" started-at="2020-09-09T12:50:36Z" data-provider="getData" finished-at="2020-09-09T12:50:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Selenium.project.HomePage@550dbc7a]" name="basePageNavigation" duration-ms="16447" started-at="2020-09-09T12:50:57Z" data-provider="getData" finished-at="2020-09-09T12:51:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium.project.HomePage@550dbc7a]" name="teardown" is-config="true" duration-ms="4400" started-at="2020-09-09T12:51:14Z" finished-at="2020-09-09T12:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Selenium.project.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
